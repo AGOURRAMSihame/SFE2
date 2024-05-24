@@ -14,6 +14,9 @@ import PageList from './pages/FormListPage';
 import ViewForm from './pages/view';
 import EditForm from './pages/edit';
 import FormViewer from './pages/formview';
+import Register from './pages/register';
+import Login from './pages/login';
+import Google from './pages/google';
 
 
 
@@ -33,6 +36,9 @@ function App() {
         <Route path="/view/:id" element={< ViewForm/> }/>
         <Route path="/update/:id" element={< EditForm/> }/>
         <Route path="/viewform/:id" element={<FormViewer />} />
+        <Route path="/register" element={< Register/>} />
+        <Route path="/login" element={< Login/>} />
+        <Route path="/google" element={< Google/>} />
 
 
        
